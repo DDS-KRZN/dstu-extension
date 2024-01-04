@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "DSTU Bibliographic Link Generator",
+  "version": "1.0",
+  "description": "Розширення для збереження бібліографічних посилань за ДСТУ 8302:2015.",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
