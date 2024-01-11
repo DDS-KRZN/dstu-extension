@@ -12,7 +12,7 @@ function generateBibliography() {
     const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
     const currentDate = new Date().toLocaleDateString('en-GB', options).replace(/\//g, '.');
 
-    const bibliographicLink = `${pageTitle}. URL: ${pageURL} (дата звернення: ${currentDate})`;
+    const bibliographicLink = `${pageTitle}. URL: ${pageURL} (дата звернення: ${currentDate});`;
     document.getElementById('bibliography').value = bibliographicLink;
   });
 }
